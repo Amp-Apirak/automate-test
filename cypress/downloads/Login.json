@@ -1,0 +1,200 @@
+{
+    "title": "Login",
+    "selectorAttribute": "11052024",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1499,
+            "height": 832,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://pms.pointit.co.th/login",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://pms.pointit.co.th/login",
+                    "title": "PMS - PMS"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#username"
+                ],
+                [
+                    "xpath///*[@id=\"username\"]"
+                ],
+                [
+                    "pierce/#username"
+                ],
+                [
+                    "aria/Username"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 73.84375
+        },
+        {
+            "type": "change",
+            "value": "apirak",
+            "selectors": [
+                [
+                    "#username"
+                ],
+                [
+                    "xpath///*[@id=\"username\"]"
+                ],
+                [
+                    "pierce/#username"
+                ],
+                [
+                    "aria/Username"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.row div:nth-of-type(2) > div > div > div"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/main/div/div/div[1]/div/div/div/div[2]/div/form/div[2]/div/div/div"
+                ],
+                [
+                    "pierce/div.row div:nth-of-type(2) > div > div > div"
+                ]
+            ],
+            "offsetY": 61,
+            "offsetX": 98.84375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#input-25"
+                ],
+                [
+                    "xpath///*[@id=\"input-25\"]"
+                ],
+                [
+                    "pierce/#input-25"
+                ],
+                [
+                    "aria/Password"
+                ]
+            ],
+            "offsetY": 9,
+            "offsetX": 70.84375
+        },
+        {
+            "type": "change",
+            "value": "12345",
+            "selectors": [
+                [
+                    "#input-25"
+                ],
+                [
+                    "xpath///*[@id=\"input-25\"]"
+                ],
+                [
+                    "pierce/#input-25"
+                ],
+                [
+                    "aria/Password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/main/div/div/div[1]/div/div/div/div[2]/div/form/div[5]/div/button/span"
+                ],
+                [
+                    "pierce/span"
+                ],
+                [
+                    "aria/Log In",
+                    "aria/[role=\"generic\"]"
+                ]
+            ],
+            "offsetY": 8.5,
+            "offsetX": 108.015625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mx-1 > div.v-app-bar-title__placeholder"
+                ],
+                [
+                    "xpath///*[@id=\"grad\"]/div[1]/header/div/div[5]/div[2]"
+                ],
+                [
+                    "pierce/div.mx-1 > div.v-app-bar-title__placeholder"
+                ]
+            ],
+            "offsetY": 20,
+            "offsetX": 54.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button:nth-of-type(5) i"
+                ],
+                [
+                    "xpath///*[@id=\"grad\"]/div[1]/header/div/button[5]/span/i"
+                ],
+                [
+                    "pierce/button:nth-of-type(5) i"
+                ]
+            ],
+            "offsetY": 11,
+            "offsetX": 15.984375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mt-2 > div:nth-of-type(2) span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div[3]/div/div/div[2]/div[2]/button/span"
+                ],
+                [
+                    "pierce/div.mt-2 > div:nth-of-type(2) span"
+                ],
+                [
+                    "aria/Confirm",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "text/Confirm"
+                ]
+            ],
+            "offsetY": 10.421875,
+            "offsetX": 35.328125
+        }
+    ]
+}
